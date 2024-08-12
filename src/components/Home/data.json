@@ -1,0 +1,42 @@
+{
+    "data" : [
+        {
+            "image": "assets/achievements/taiwan.jpg",
+            "title": "Finalist of Taiwan Presidential Hackathon",
+            "content": "Selected as one of the 7 global finalists in the international track of the prestigious Presidential Hackathon, hosted by the Taiwan government, with a primary focus on UN sustainability goals.",
+            "certificate":"https://drive.google.com/file/d/1eR5Hdv0ppPU4A0PmbrKj4eAvuUkT3Q1c/view?usp=drive_link"
+        },
+         
+        {
+            "image": "assets/achievements/script4her.png",
+            "title": "Winner of Script4her Hackathon",
+            "content": "Awarded a total prize of Rs. 1 Lakh in a nationwide hackathon organized by Dhriiti and Impact Hub Manila, in collaboration with Project Her & Now of GIZ, Villgro, Nasscom Foundation, and NuSocia.",
+            "certificate":"https://drive.google.com/file/d/1BFgStmgjiLMR0Jl3VfALJ0CkiHkmfVtj/view?usp=drive_link"
+        },
+        {
+            "image": "assets/achievements/electhon.jpg",
+            "title": "Runner-up at Electhon Hackathon",
+            "content":"Won a cash prize of 50k for being the runner-up in a hackathon organized by the Election Commission of India, aimed at addressing critical issues in the electoral process.",
+            "certificate":"https://drive.google.com/file/d/1DrXJkIrmJsLzWTs5uAcbSqyvj2_2MQI1/view?usp=drive_link"
+        },
+        {
+            "image": "assets/achievements/ksp.jpg",
+            "title": "Honorary mention at Karnataka Police Hackathon",
+            "content":"Bagged an honorary mention and a cash prize of 10k in a hackathon organized by the Karnataka State Police, aimed at curbing crime by brainstorming solutions with the help of state-of-the-art technologies.",
+            "certificate": "https://drive.google.com/file/d/1ZyMa12PNvjqfXYArYuCenk1-nfKuRLXN/view?usp=drive_link"
+        },
+        {
+            "image": "assets/achievements/sih.png",
+            "title":"Finalist of SIH 2022 Hackathon",
+            "content":"Finalist for the problem statement 'Digitalization of the application process for sports infrastructure' under the Khelo India Scheme by the Department of Sports (DoS), Ministry of Youth Affairs & Sports.",
+            "certificate":"https://drive.google.com/file/d/1dF0U3aoVLXX6pB_iU6PVCXFNfRkb0oTA/view?usp=sharing"
+        },
+        {
+            "image" : "assets/achievements/mhrd.jpeg",
+            "title": "Development Team - SIH 2022 Portal ",
+            "content" : "Contributed to the development of the Smart India Hackathon 2022 portal, a platform for India's largest hackathon. Our efforts were recognized by the Ministry of Education's Innovation Cell for delivering a robust digital solution.",
+            "certificate": "https://drive.google.com/file/d/1iNk7hJepi9Hu6GHuG7kAhmDWhrBsF7ao/view?usp=sharing"
+        }
+
+    ]
+}

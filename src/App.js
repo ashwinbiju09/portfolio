@@ -1,23 +1,33 @@
-import logo from './logo.svg';
-import './App.css';
-
+import React, { useState, useEffect } from "react";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import BaseRoute from "./pages/BaseRoute";
+import Loader from "./components/Loader"; // Adjust the import path as needed
+import ParticlesComponent from "./components/ParticlesComponent";
 function App() {
+  const [isLoading, setIsLoading] = useState(true);
+
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setIsLoading(false);
+    }, 1000);
+
+    return () => clearTimeout(timer);
+  }, []);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div style={{ fontFamily: "Poppins, sans-serif" }}>
+      {isLoading ? (
+        <Loader />
+      ) : (
+        <>
+          <ParticlesComponent />
+          <BrowserRouter>
+            <Routes>
+              <Route path="/*" element={<BaseRoute />} />
+            </Routes>
+          </BrowserRouter>
+        </>
+      )}
     </div>
   );
 }

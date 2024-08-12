@@ -1,0 +1,28 @@
+{
+    "data": [
+      {
+        "date": "January 2022 - May 2024",
+        "title": "React.js Developer",
+        "company": "Third Storage",
+        "location": "Remote",
+        "content": [
+          "Applied advanced ReactJS and NextJS techniques to optimize component life cycle practices, ensuring efficient performance and resource management in the development of both web and desktop applications.",
+          "Acquired expertise in Web3 and Blockchain architecture, demonstrating a deep understanding of underlying mechanics for seamless application development.",
+          "Developed a React SDK for streamlined application integration, enhancing functionalities and contributing to the creation of robust software ecosystems."
+        ],
+        "image": "assets/images/thirdstorage.png"
+      },
+      {
+        "date": "February 2021 - January 2022",
+        "title": "Web Developer",
+        "company": "Freelancing",
+        "location": "Remote",
+        "content": [
+          " Developed hackathon portal with role-based logins for MHRD’S Innovation Cell (Government of India), ensuring secure idea evaluation and enabling seamless idea submission from over 160,000 students.",
+          " Engineered a dynamic social platform for college alumni, integrating profiles, networking, and discussion forums, resulting in 30% increase in user engagement.",
+          " Developed NLP chatbots that improved user interaction, delivering real-time assistance across multiple platforms and achieving a 25% reduction in support response time."
+        ],
+        "image": "assets/images/freelancing.jpg"
+      }
+    ]
+  }

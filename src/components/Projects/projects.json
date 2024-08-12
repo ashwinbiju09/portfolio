@@ -1,0 +1,63 @@
+{
+    "data": [
+      {
+        "title": "Digital Fingerprint Extraction",
+        "content": "Captures fingerprint images using mobile cameras and matches them with existing fingerprints through the SIFT algorithm for efficient individual identification.",
+        "link": "https://github.com/ashwinbiju09/Digital-fingerprint-extraction",
+        "icons": [
+          "assets/svg/bootstrap.svg",
+          "assets/svg/python-5.svg",
+          "assets/svg/opencv-icon.svg"
+        ]
+      },
+      {
+        "title": "Khelo Hindustan",
+        "content": "A comprehensive portal for automating and verifying the approval process of infrastructure projects across India under the Khelo India Scheme, ensuring efficiency and transparency in project management.",
+        "link": "https://github.com/ashwinbiju09/SIH-Alpha",
+        "icons": [
+          "assets/svg/python-5.svg",
+          "assets/svg/flask.svg",
+          "assets/svg/bootstrap.svg",
+          "assets/svg/sqlite.svg"
+        ]
+      },
+      {
+        "title": "Voyager",
+        "content": "A chatbot designed to streamline travel experiences by assisting with accommodation, dining, and emergency needs, while providing various sorting and filtering options for travel-related inquiries.",
+        "link": "https://github.com/ashwinbiju09/Airtel-VoyagerBot",
+        "icons": [
+          "assets/svg/python-5.svg",
+          "assets/svg/flask.svg"
+        ]
+      },
+      {
+        "title": "Democratic Desk",
+        "content": "Integrated platform for all election-related processes, facilitating voter navigation and access to candidate information, assigned election booths, postal voting services, slot booking, and a demo for first-time voters.",
+        "link": "https://github.com/ashwinbiju09/electhon",
+        "icons": [
+          "assets/svg/react-2.svg",
+          "assets/svg/tailwind.svg",
+          "assets/svg/mongodb.svg"
+        ]
+      },
+      {
+        "title": "Ecoledger",
+        "content": "Leverages blockchain technology for transparent and secure monitoring of carbon emissions, enabling individuals and organizations to actively participate in carbon reduction initiatives and foster a sustainable future.",
+        "link": "https://github.com/ashwinbiju09/ecoledger",
+        "icons": [
+          "assets/svg/nextjs.svg",
+          "assets/svg/tailwind.svg",
+          "assets/svg/mongodb.svg"
+        ]
+      },
+      {
+        "title":"Xplore",
+        "content":"A custom-built application designed for adventure enthusiasts, offering tailored experiences that continuously engage and invigorate their sense of excitement and adventure.",
+        "link":"https://github.com/ashwinbiju09/Xplore-YHacks",
+        "icons":[
+            "assets/svg/bootstrap.svg",
+            "assets/svg/js.svg"
+        ]
+      }
+    ]
+  }
