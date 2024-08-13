@@ -20,7 +20,7 @@ function App() {
         <Loader />
       ) : (
         <>
-          {/* <ParticlesComponent /> */}
+          <ParticlesComponent />
           <BrowserRouter>
             <Routes>
               <Route path="/*" element={<BaseRoute />} />
