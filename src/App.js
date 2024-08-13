@@ -1,8 +1,9 @@
 import React, { useState, useEffect } from "react";
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import BaseRoute from "./pages/BaseRoute";
 import Loader from "./components/Loader"; // Adjust the import path as needed
 import ParticlesComponent from "./components/ParticlesComponent";
+
 function App() {
   const [isLoading, setIsLoading] = useState(true);
 
@@ -21,7 +22,7 @@ function App() {
       ) : (
         <>
           <ParticlesComponent />
-          <BrowserRouter>
+          <BrowserRouter basename={process.env.PUBLIC_URL}>
             <Routes>
               <Route path="/*" element={<BaseRoute />} />
             </Routes>
