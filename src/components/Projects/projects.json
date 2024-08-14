@@ -35,7 +35,7 @@
         "content": "Integrated platform for all election-related processes, facilitating voter navigation and access to candidate information, assigned election booths, postal voting services, slot booking, and a demo for first-time voters.",
         "link": "https://github.com/ashwinbiju09/electhon",
         "icons": [
-          "assets/svg/react.svg",
+          "assets/svg/reactjs.svg",
           "assets/svg/tailwind.svg",
           "assets/svg/mongodb.svg"
         ]
