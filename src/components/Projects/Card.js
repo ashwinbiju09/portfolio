@@ -15,7 +15,7 @@ const Projects = () => {
           className="hover:shadow-lg transition-shadow duration-200"
         >
           <div className="">
-            <div className="flex flex-col bg-white p-4">
+            <div className="flex flex-col bg-white p-4 rounded-md">
               <div className="flex flex-row items-center">
                 <FontAwesomeIcon icon={faFolder} size="2x" />
                 <h2 className="text-2xl font-medium ml-4">{project.title}</h2>
