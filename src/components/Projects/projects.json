@@ -6,8 +6,8 @@
         "link": "https://github.com/ashwinbiju09/Digital-fingerprint-extraction",
         "icons": [
           "assets/svg/bootstrap.svg",
-          "assets/svg/python-5.svg",
-          "assets/svg/opencv-icon.svg"
+          "assets/svg/python.svg",
+          "assets/svg/opencv.svg"
         ]
       },
       {
@@ -15,7 +15,7 @@
         "content": "A comprehensive portal for automating and verifying the approval process of infrastructure projects across India under the Khelo India Scheme, ensuring efficiency and transparency in project management.",
         "link": "https://github.com/ashwinbiju09/SIH-Alpha",
         "icons": [
-          "assets/svg/python-5.svg",
+          "assets/svg/python.svg",
           "assets/svg/flask.svg",
           "assets/svg/bootstrap.svg",
           "assets/svg/sqlite.svg"
@@ -26,7 +26,7 @@
         "content": "A chatbot designed to streamline travel experiences by assisting with accommodation, dining, and emergency needs, while providing various sorting and filtering options for travel-related inquiries.",
         "link": "https://github.com/ashwinbiju09/Airtel-VoyagerBot",
         "icons": [
-          "assets/svg/python-5.svg",
+          "assets/svg/python.svg",
           "assets/svg/flask.svg"
         ]
       },
@@ -35,7 +35,7 @@
         "content": "Integrated platform for all election-related processes, facilitating voter navigation and access to candidate information, assigned election booths, postal voting services, slot booking, and a demo for first-time voters.",
         "link": "https://github.com/ashwinbiju09/electhon",
         "icons": [
-          "assets/svg/react-2.svg",
+          "assets/svg/react.svg",
           "assets/svg/tailwind.svg",
           "assets/svg/mongodb.svg"
         ]
