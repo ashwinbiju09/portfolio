@@ -39,7 +39,9 @@ const Volunteer = () => {
                   <div>{item.community}</div>
                   <div className="hidden md:block"> {item.location}</div>
                 </div>
-                <p>{item.content}</p>
+                {item.content.map((point, idx) => (
+                  <p key={idx}>⚡ {point}</p>
+                ))}
               </div>
             </VerticalTimelineElement>
           </VerticalTimeline>
