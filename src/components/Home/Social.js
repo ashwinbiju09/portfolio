@@ -59,7 +59,7 @@ const Social = () => {
         </a>
       </div>
       <a
-        href="/resume"
+        href="https://drive.google.com/file/d/1W88yvb1XkGFZOJirg8GTm5DMbFiCQ1P9/view?usp=sharing"
         className="inline-block px-6 py-3 text-xl font-semibold text-white bg-gradient-to-tr from-green-400 to-blue-600 rounded-md shadow-md hover:shadow-lg transition-shadow duration-300"
       >
         See Resume

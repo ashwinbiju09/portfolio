@@ -6,7 +6,10 @@
         "community": "Hack Club SKCET",
         "location": "Coimbatore",
         "content": [
-          "Guided a community of computer science students in their professional development and technical skills, orchestrating workshops, coding sessions, and events to foster continuous learning and inspire a passion for technology."
+          "Mentored a group of CS students, boosting professional skills, enhancing technical knowledge, and fostering interest in technology.",
+          "Led practical workshops on GitHub, Bootstrap Studio, Postman API, and Canva, encouraging hands-on learning and skill development.",
+          "Delivered a workshop on blockchain basics, covering key concepts and practical uses in technology.",
+          "Coordinated beginner-friendly hackathons and supported students in developing solutions, fostering collaboration under time constraints."
         ],
         "image": "assets/images/hackclub.png"
       }

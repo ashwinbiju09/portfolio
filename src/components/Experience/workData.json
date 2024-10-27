@@ -6,9 +6,11 @@
         "company": "Third Storage",
         "location": "Remote",
         "content": [
-          "Applied advanced ReactJS and NextJS techniques to optimize component life cycle practices, ensuring efficient performance and resource management in the development of both web and desktop applications.",
-          "Acquired expertise in Web3 and Blockchain architecture, demonstrating a deep understanding of underlying mechanics for seamless application development.",
-          "Developed a React SDK for streamlined application integration, enhancing functionalities and contributing to the creation of robust software ecosystems."
+          "Optimised component life cycle practices using advanced ReactJS and NextJS, enhancing performance and resource management in web and desktop application development.",
+    "Reduced unnecessary re-renders by 25% and refined data flow consistency through Redux implementation.",
+    "Improved development efficiency by 30% and ensured a consistent, customisable design system by leveraging Tailwind CSS for reusable components.",
+    "Developed a React SDK for streamlined application integration, boosting functionalities and contributing to robust software ecosystems.",
+    "Acquired expertise in Web3 and Blockchain architecture, demonstrating a deep understanding of underlying mechanics for seamless application development."
         ],
         "image": "assets/images/thirdstorage.png"
       },
@@ -18,9 +20,9 @@
         "company": "Freelancing",
         "location": "Remote",
         "content": [
-          " Developed hackathon portal with role-based logins for MHRD’S Innovation Cell (Government of India), ensuring secure idea evaluation and enabling seamless idea submission from over 160,000 students.",
-          " Engineered a dynamic social platform for college alumni, integrating profiles, networking, and discussion forums, resulting in 30% increase in user engagement.",
-          " Developed NLP chatbots that improved user interaction, delivering real-time assistance across multiple platforms and achieving a 25% reduction in support response time."
+          "Designed and developed a hackathon portal for MOE’s Innovation Cell using Django, MySQL, and Bootstrap, facilitating secure idea evaluation and submissions from over 160,000 students.",
+          "Built and presented 'Khel Hindustan,' a web platform for the Ministry of Youth Affairs and Sports, leveraging Flask (Python), SQLite, and JavaScript to automate application submission, real-time tracking, and NLP-based screening, reducing manual processes by 40%.",
+          "Developed a unified verification system using Python and OpenCV, incorporating facial recognition and fingerprint extraction with the SIFT algorithm, improving accuracy and efficiency in citizen data access."
         ],
         "image": "assets/images/freelancing.jpg"
       }
