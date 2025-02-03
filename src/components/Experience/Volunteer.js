@@ -8,13 +8,13 @@ import data from "../Experience/volunteerData.json";
 
 const Volunteer = () => {
   return (
-    <div className="bg-black pb-12">
+    <div className="w-full h-full bg-black">
       <h1 className="text-xl md:text-3xl lg:text-4xl py-6 font-extrabold text-center bg-gradient-to-tr from-green-400 to-blue-600 text-transparent bg-clip-text">
         Volunteer Experience
       </h1>
       <div className="mx-auto">
-        <VerticalTimeline layout={"1-column-left"}>
-          {data.data.map((item, index) => (
+        {data.data.map((item, index) => (
+          <VerticalTimeline layout={"1-column-left"}>
             <VerticalTimelineElement
               key={index}
               contentArrowStyle={{
@@ -37,20 +37,16 @@ const Volunteer = () => {
 
                 <div className="flex justify-between text-lg py-2">
                   <div>{item.community}</div>
-                  <div className="hidden md:block">{item.location}</div>
+                  <div className="hidden md:block"> {item.location}</div>
                 </div>
-
-                <div className="space-y-2 mt-2">
-                  {item.content.map((point, idx) => (
-                    <p key={idx} className="whitespace-pre-line">
-                      ⚡ {point}
-                    </p>
-                  ))}
-                </div>
+                {/* {item.content.map((point, idx) => (
+                  <p key={idx}>⚡ {point}</p>
+                ))} */}
+                <p>{item.content}</p>
               </div>
             </VerticalTimelineElement>
-          ))}
-        </VerticalTimeline>
+          </VerticalTimeline>
+        ))}
       </div>
     </div>
   );

@@ -5,12 +5,7 @@
         "title": " Core Operational Team",
         "community": "Hack Club SKCET",
         "location": "Coimbatore",
-        "content": [
-          "Mentored a group of CS students, boosting professional skills, enhancing technical knowledge, and fostering interest in technology.",
-          "Led practical workshops on GitHub, Bootstrap Studio, Postman API, and Canva, encouraging hands-on learning and skill development.",
-          "Delivered a workshop on blockchain basics, covering key concepts and practical uses in technology.",
-          "Coordinated beginner-friendly hackathons and supported students in developing solutions, fostering collaboration under time constraints."
-        ],
+        "content": "Mentored CS students by enhancing their professional and technical skills, conducting hands-on workshops on tools like GitHub, Flask, etc., introducing blockchain fundamentals, and organising beginner-friendly hackathons to foster collaboration and innovation.",
         "image": "assets/images/hackclub.png"
       }
     ]
