@@ -8,15 +8,14 @@ import data from "../Experience/volunteerData.json";
 
 const Volunteer = () => {
   return (
-    <div className="w-full h-full bg-black">
+    <div className="bg-black pb-12">
       <h1 className="text-xl md:text-3xl lg:text-4xl py-6 font-extrabold text-center bg-gradient-to-tr from-green-400 to-blue-600 text-transparent bg-clip-text">
         Volunteer Experience
       </h1>
       <div className="mx-auto">
         {data.data.map((item, index) => (
-          <VerticalTimeline layout={"1-column-left"}>
+          <VerticalTimeline layout={"1-column-left"} key={index}>
             <VerticalTimelineElement
-              key={index}
               contentArrowStyle={{
                 borderRight: "7px solid #fff",
               }}
@@ -37,7 +36,7 @@ const Volunteer = () => {
 
                 <div className="flex justify-between text-lg py-2">
                   <div>{item.community}</div>
-                  <div className="hidden md:block"> {item.location}</div>
+                  <div className="hidden md:block">{item.location}</div>
                 </div>
                 {item.content.map((point, idx) => (
                   <p key={idx}>⚡ {point}</p>
