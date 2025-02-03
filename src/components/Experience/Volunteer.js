@@ -13,9 +13,10 @@ const Volunteer = () => {
         Volunteer Experience
       </h1>
       <div className="mx-auto">
-        {data.data.map((item, index) => (
-          <VerticalTimeline layout={"1-column-left"} key={index}>
+        <VerticalTimeline layout={"1-column-left"}>
+          {data.data.map((item, index) => (
             <VerticalTimelineElement
+              key={index}
               contentArrowStyle={{
                 borderRight: "7px solid #fff",
               }}
@@ -38,13 +39,18 @@ const Volunteer = () => {
                   <div>{item.community}</div>
                   <div className="hidden md:block">{item.location}</div>
                 </div>
-                {item.content.map((point, idx) => (
-                  <p key={idx}>⚡ {point}</p>
-                ))}
+
+                <div className="space-y-2 mt-2">
+                  {item.content.map((point, idx) => (
+                    <p key={idx} className="whitespace-pre-line">
+                      ⚡ {point}
+                    </p>
+                  ))}
+                </div>
               </div>
             </VerticalTimelineElement>
-          </VerticalTimeline>
-        ))}
+          ))}
+        </VerticalTimeline>
       </div>
     </div>
   );
