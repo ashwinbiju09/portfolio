@@ -8,7 +8,7 @@ const Social = () => {
     <>
       <div className="flex space-x-6 pt-4 mb-6">
         <a
-          href="https://github.com"
+          href="https://github.com/ashwinbiju09"
           target="_blank"
           rel="noopener noreferrer"
           className="text-white hover:text-blue-600"
@@ -20,7 +20,7 @@ const Social = () => {
           />
         </a>
         <a
-          href="https://linkedin.com"
+          href="https://www.linkedin.com/in/ashwinbiju09/"
           target="_blank"
           rel="noopener noreferrer"
           className="text-white hover:hover:text-blue-600"
@@ -32,7 +32,7 @@ const Social = () => {
           />
         </a>
         <a
-          href="mailto:example@gmail.com"
+          href="ashwinkbiju09@gmail.com"
           className="text-white hover:hover:text-blue-600"
         >
           <FontAwesomeIcon
