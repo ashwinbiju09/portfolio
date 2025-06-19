@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import BaseRoute from "./pages/BaseRoute";
-import Loader from "./components/Loader"; // Adjust the import path as needed
-import ParticlesComponent from "./components/ParticlesComponent";
+import Loader from "./components/Loader";
+
 function App() {
   const [isLoading, setIsLoading] = useState(true);
 
