@@ -1,63 +1,46 @@
 {
-    "data": [
-      {
-        "title": "Digital Fingerprint Extraction",
-        "content": "Captures fingerprint images using mobile cameras and matches them with existing fingerprints through the SIFT algorithm for efficient individual identification.",
-        "link": "https://github.com/ashwinbiju09/Digital-fingerprint-extraction",
-        "icons": [
-          "assets/svg/bootstrap.svg",
-          "assets/svg/python.svg",
-          "assets/svg/opencv.svg"
-        ]
-      },
-      {
-        "title": "Khelo Hindustan",
-        "content": "A comprehensive portal for automating and verifying the approval process of infrastructure projects across India under the Khelo India Scheme, ensuring efficiency and transparency in project management.",
-        "link": "https://github.com/ashwinbiju09/SIH-Alpha",
-        "icons": [
-          "assets/svg/python.svg",
-          "assets/svg/flask.svg",
-          "assets/svg/bootstrap.svg",
-          "assets/svg/sqlite.svg"
-        ]
-      },
-      {
-        "title": "Voyager",
-        "content": "A chatbot designed to streamline travel experiences by assisting with accommodation, dining, and emergency needs, while providing various sorting and filtering options for travel-related inquiries.",
-        "link": "https://github.com/ashwinbiju09/Airtel-VoyagerBot",
-        "icons": [
-          "assets/svg/python.svg",
-          "assets/svg/flask.svg"
-        ]
-      },
-      {
-        "title": "Democratic Desk",
-        "content": "Integrated platform for all election-related processes, facilitating voter navigation and access to candidate information, assigned election booths, postal voting services, slot booking, and a demo for first-time voters.",
-        "link": "https://github.com/ashwinbiju09/electhon",
-        "icons": [
-          "assets/svg/reactjs.svg",
-          "assets/svg/tailwind.svg",
-          "assets/svg/mongodb.svg"
-        ]
-      },
-      {
-        "title": "Ecoledger",
-        "content": "Leverages blockchain technology for transparent and secure monitoring of carbon emissions, enabling individuals and organizations to actively participate in carbon reduction initiatives and foster a sustainable future.",
-        "link": "https://github.com/ashwinbiju09/ecoledger",
-        "icons": [
-          "assets/svg/nextjs.svg",
-          "assets/svg/tailwind.svg",
-          "assets/svg/mongodb.svg"
-        ]
-      },
-      {
-        "title":"Xplore",
-        "content":"A custom-built application designed for adventure enthusiasts, offering tailored experiences that continuously engage and invigorate their sense of excitement and adventure.",
-        "link":"https://github.com/ashwinbiju09/Xplore-YHacks",
-        "icons":[
-            "assets/svg/bootstrap.svg",
-            "assets/svg/js.svg"
-        ]
-      }
-    ]
-  }
+  "data": [
+    {
+      "title": "Digital Fingerprint Extraction",
+      "content": "Captures fingerprint images via mobile cameras and uses the SIFT algorithm to match them with existing databases for accurate identification.",
+      "category": "hackathon",
+      "icons": ["Python", "OpenCV", "Flask"]
+    },
+    {
+      "title": "Infrastructure Approval System",
+      "content": "Automates the Khelo India infrastructure approval process with a transparent portal for real-time tracking and project validation.",
+      "category": "hackathon",
+      "icons": ["Python", "Flask", "JavaScript", "SQLite"]
+    },
+    {
+      "title": "Voyager",
+      "content": "A travel chatbot that helps users with bookings, food recommendations, and emergency support using smart filters and quick responses.",
+      "category": "hackathon",
+      "icons": ["Python", "Flask"]
+    },
+    {
+      "title": "Democratic Desk",
+      "content": "Centralized platform for voter engagement with access to polling info, postal voting, slot booking, and demos for first-time voters.",
+      "category": "hackathon",
+      "icons": ["ReactJS", "ExpressJS", "NodeJS", "MongoDB"]
+    },
+    {
+      "title": "Ecoledger",
+      "content": "A blockchain-based platform for tracking carbon emissions and promoting active participation in sustainability efforts.",
+      "category": "hackathon",
+      "icons": ["NextJS", "MongoDB","Solidity"]
+    },
+    {
+      "title": "Xplore",
+      "content": "Adventure app offering personalized experiences and real-time suggestions for outdoor enthusiasts.",
+      "category": "hackathon",
+      "icons": ["Flask", "Python", "SQLite", "JavaScript"]
+    },
+    {
+      "title": "Audio Emailr",
+      "content": "Voice-enabled email client that reads messages aloud and supports commands for Gmail, Zoho Mail and Outlook. Built for hands-free access and accessibility.",
+      "category": "academic",
+      "icons": ["React", "Flask", "Python", "MongoDB", "Google API"]
+    }
+  ]
+}

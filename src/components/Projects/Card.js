@@ -1,43 +1,32 @@
 import React from "react";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faFolder } from "@fortawesome/free-solid-svg-icons";
-import data from "../Projects/projects.json";
+import data from "./projects.json";
+import ProjectCard from "./ProjectCard";
 
-const Projects = () => {
+const ProjectsContent = () => {
+  const academic = data.data.filter((item) => item.category === "academic");
+  const hackathon = data.data.filter((item) => item.category === "hackathon");
+
+  const renderSection = (title, items) => (
+    <div>
+      <h2 className="text-2xl md:text-3xl font-medium text-left py-6 text-blue-500">
+        {title}
+      </h2>
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+        {items.map((project, index) => (
+          <ProjectCard key={index} project={project} />
+        ))}
+      </div>
+    </div>
+  );
+
   return (
-    <div className="w-90 mx-8 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 bg-black my-12">
-      {data.data.map((project, index) => (
-        <a
-          key={index}
-          href={project.link}
-          target="_blank"
-          rel="noreferrer"
-          className="hover:shadow-lg transition-shadow duration-200"
-        >
-          <div className="">
-            <div className="flex flex-col bg-white p-4 rounded-md">
-              <div className="flex flex-row items-center">
-                <FontAwesomeIcon icon={faFolder} size="2x" />
-                <h2 className="text-2xl font-medium ml-4">{project.title}</h2>
-              </div>
-              <div className="text-justify py-4 text-md lg:h-40">
-                {project.content}
-              </div>
-              <div className="hidden lg:block">
-                <div className="flex flex-row justify-end space-x-4">
-                  {project.icons.map((icon, idx) => (
-                    <div key={idx}>
-                      <img src={icon} className="h-8" alt={`Icon ${idx}`} />
-                    </div>
-                  ))}
-                </div>
-              </div>
-            </div>
-          </div>
-        </a>
-      ))}
+    <div className="w-full px-4 md:px-12 py-8">
+      <div className="space-y-12">
+        {renderSection("Academic", academic)}
+        {renderSection("Hackathon", hackathon)}
+      </div>
     </div>
   );
 };
 
-export default Projects;
+export default ProjectsContent;

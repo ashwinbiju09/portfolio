@@ -1,12 +1,15 @@
 {
-    "data": [
-      {
-        "date": "October 2021 - April 2022",
-        "title": " Core Operational Team",
-        "community": "Hack Club SKCET",
-        "location": "Coimbatore",
-        "content": "Mentored CS students by enhancing their professional and technical skills, conducting hands-on workshops on tools like GitHub, Flask, etc., introducing blockchain fundamentals, and organising beginner-friendly hackathons to foster collaboration and innovation.",
-        "image": "assets/images/hackclub.png"
-      }
-    ]
-  }
+  "data": [
+    {
+      "date": "October 2021 - April 2022",
+      "title": "Core Operational Team",
+      "community": "Hack Club SKCET",
+      "location": "Coimbatore, India",
+      "content": [
+        "Mentored CS students to enhance their professional skills and technical knowledge, fostering a strong interest in technology through personalized guidance and support.",
+        "Conducted hands-on workshops covering essential tools like GitHub, Postman API, and Canva, promoting practical skill development and real-world application.",
+        "Organized and led beginner-friendly hackathons and workshops on blockchain fundamentals, encouraging collaboration, innovation, and problem-solving under time constraints."
+      ]
+    }
+  ]
+}

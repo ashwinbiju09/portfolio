@@ -18,7 +18,7 @@ const hackathonLogos = [
 
 const Hacks = () => {
   return (
-    <div className="bg-black">
+    <div className="">
       <Fade duration={3000}>
         <h1 className="text-md md:text-2xl lg:text-3xl py-12 font-extrabold text-center bg-gradient-to-tr from-green-400 to-blue-600 text-transparent bg-clip-text">
           Key hackathons that advanced my knowledge!

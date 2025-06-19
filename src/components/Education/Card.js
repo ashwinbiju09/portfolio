@@ -1,44 +1,68 @@
 import React from "react";
 import data from "../Education/data.json";
 
-const Card = () => {
+const EducationCard = ({ item }) => {
   return (
-    <div>
-      {data.data.map((item, index) => (
-        <div className="w-full flex flex-row justify-center mb-8">
-          <div className="flex items-center justify-center m-4">
-            <img
-              src={item.image}
-              alt="skcetLogo"
-              className="border-bg-black rounded-full h-48 w-full hidden md:block"
-            />
+    <div className="max-w-7xl w-full rounded-xl shadow-lg p-6 border border-gray-600 bg-neutral-900 mb-6 text-white flex flex-col md:flex-row items-center gap-6">
+      <div className="flex-grow w-full">
+        <div className="flex flex-col md:flex-row justify-between items-start md:items-start w-full">
+          <div className="flex flex-col items-start">
+            <p className="text-gray-300 text-lg font-semibold">{item.degree}</p>
+            <h3 className="text-xl font-medium text-gray-200 mt-1">
+              {item.name}
+            </h3>
           </div>
-          <div className="w-2/3 m-4 bg-white bg-opacity-30 backdrop-filter backdrop-blur-lg border border-white border-opacity-40 rounded-2xl">
-            <div className="bg-slate-50">
-              <div className="flex flex-row justify-between items-center px-4 pt-3 ">
-                <div className="text-xl md:text-2xl font-bold">{item.name}</div>
-                <div className="text-sm hidden md:block">{item.year}</div>
-              </div>
-              <p className="px-4 py-3 text-xl">{item.degree}</p>
-            </div>
-            <div className="w-full text-white text-justify text-sm md:text-lg space-y-4 p-4">
-              {item.content.map((point, idx) => (
-                <h2 key={idx}>⚡ {point}</h2>
-              ))}
-            </div>
-            <div className="flex justify-end">
-              <a
-                href={item.link}
-                target="_blank"
-                rel="noreferrer"
-                className="text-white p-4 hover:text-blue-500"
-              >
-                Visit Website
-              </a>
-            </div>
+          <div className="flex flex-col items-end mt-4 md:mt-0 py-2">
+            <span className="text-blue-600 bg-gray-800 px-2 py-1 rounded-md text-sm font-medium">
+              {item.year}
+            </span>
+            <span className="text-sm text-gray-400 mt-2">{item.location}</span>
           </div>
         </div>
-      ))}
+
+        <ul className="text-gray-300 text-sm space-y-3 list-none pl-0 mt-4">
+          {item.content.map((point, idx) => (
+            <li key={idx} className="relative pl-6">
+              <span
+                className="absolute left-0 top-1.5 w-2 h-2 rounded-full bg-blue-600/70"
+                aria-hidden="true"
+              />
+              {point}
+            </li>
+          ))}
+        </ul>
+
+        {item.link && (
+          <div className="flex justify-end">
+            <a
+              href={item.link}
+              target="_blank"
+              rel="noreferrer"
+              className="text-blue-600 hover:text-blue-400 font-medium"
+            >
+              Visit Website
+            </a>
+          </div>
+        )}
+      </div>
+    </div>
+  );
+};
+
+const Card = () => {
+  return (
+    <div className="flex flex-col items-center justify-center py-8">
+      <div className="px-4 md:px-12 w-full max-w-7xl mx-auto">
+        <h1 className="text-xl md:text-3xl lg:text-4xl pb-8 font-medium text-left bg-blue-600 text-transparent bg-clip-text">
+          Academic Qualifications
+        </h1>
+
+        <div className="space-y-8 w-full flex flex-col items-center">
+          {data.data.map((item, index) => (
+            <EducationCard key={index} item={item} />
+          ))}
+        </div>
+      </div>
     </div>
   );
 };

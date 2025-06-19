@@ -7,7 +7,7 @@ const skills = [
   "css",
   "bootstrap",
   "tailwind",
-  "js",
+  "javascript",
   "reactjs",
   "nextjs",
   "python",
@@ -28,7 +28,7 @@ const Skills = () => {
         {skills.map((skill, index) => (
           <div
             key={index}
-            className="flex justify-center items-center p-4 bg-white bg-opacity-30 backdrop-filter backdrop-blur-lg border border-white border-opacity-40 rounded-lg"
+            className="flex justify-center items-center p-4 bg-white bg-opacity-30 backdrop-filter backdrop-blur-lg border border-white border-opacity-40 rounded-full"
           >
             <img
               className="h-6 md:h-10 lg:h-12"
@@ -38,7 +38,7 @@ const Skills = () => {
               data-tooltip-content={
                 skill.charAt(0).toUpperCase() + skill.slice(1)
               }
-              data-tooltip-place="top" // Optional: position of the tooltip
+              data-tooltip-place="top"
             />
           </div>
         ))}

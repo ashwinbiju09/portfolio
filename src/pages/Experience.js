@@ -3,13 +3,16 @@ import NavBar from "../components/NavBar";
 import Footer from "../components/Footer";
 import Work from "../components/Experience/Work";
 import Volunteer from "../components/Experience/Volunteer";
+import { Fade } from "react-awesome-reveal";
 
 const Experience = () => {
   return (
-    <div className="bg-black">
+    <div>
       <NavBar />
-      <Work />
-      <Volunteer />
+      <Fade duration={3000}>
+        <Work />
+        <Volunteer />
+      </Fade>
       <Footer />
     </div>
   );

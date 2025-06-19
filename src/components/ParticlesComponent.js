@@ -1,14 +1,12 @@
 import { useEffect, useState } from "react";
 import Particles, { initParticlesEngine } from "@tsparticles/react";
-import { loadSlim } from "@tsparticles/slim"; // if you are going to use `loadSlim`, install the "@tsparticles/slim" package too.
+import { loadSlim } from "@tsparticles/slim";
 
 const ParticlesComponent = () => {
   const [init, setInit] = useState(false);
 
-  // this should be run only once per application lifetime
   useEffect(() => {
     initParticlesEngine(async (engine) => {
-      // you can initiate the tsParticles instance (engine) here, adding custom shapes or presets
       await loadSlim(engine);
     }).then(() => {
       setInit(true);
@@ -445,7 +443,7 @@ const ParticlesComponent = () => {
               },
               particles: {
                 enable: false,
-                frequency: 0.05,
+                frequency: 0.03,
                 opacity: 1,
               },
             },

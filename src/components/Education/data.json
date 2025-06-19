@@ -4,22 +4,27 @@
       "image": "assets/images/uos.png",
       "name": "The University of Sheffield",
       "year": "2024 - 2025",
-      "degree": "MSc in Advanced Computer Science ",
+      "location": "Sheffield, United Kingdom",
+      "degree": "MSc in Advanced Computer Science",
       "link": "https://www.sheffield.ac.uk/",
       "content": [
-        "Currently enrolled in advanced studies focusing on Object-Oriented Programming in Java, Machine Learning and Adaptive Intelligence, Text Processing, Natural Language Processing with opportunities for hands-on projects, and industry collaborations."
+        "Currently enrolled in advanced studies focusing on Machine Learning and Adaptive Intelligence, Text Processing, and Natural Language Processing.",
+        "Refactored a legacy codebase as part of a Software Re-engineering module, reducing code complexity, enhancing performance, and increasing unit test coverage to improve system reliability and maintainability.",
+        "Actively working towards achieving a 2:1 grade while engaging in industry-driven projects and academic research."
       ]
     },
     {
       "image": "assets/images/skcet.png",
       "name": "Sri Krishna College of Engineering and Technology",
       "year": "2020 - 2024",
+      "location": "Coimbatore, India",
       "degree": "B.E. Computer Science and Engineering",
       "link": "https://skcet.ac.in/",
       "content": [
         "First Class with Distinction.",
         "Completed a comprehensive curriculum of nearly 54 modules, focusing on foundational areas such as Data Structures & Algorithms, Operating Systems, Database Management Systems (DBMS), and Computer Architecture.",
-        "Participated and won numerous prizes in various national and international hackathons."      ]
+        "Participated and won numerous prizes in various national and international hackathons."
+      ]
     }
   ]
 }

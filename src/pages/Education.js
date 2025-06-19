@@ -6,16 +6,11 @@ import { Fade } from "react-awesome-reveal";
 
 const Education = () => {
   return (
-    <div className="bg-black">
+    <div className="min-h-screen">
       <Navbar />
       <Fade duration={3000}>
-        <div className="w-full">
-          <h1 className="text-xl md:text-3xl lg:text-4xl py-6 font-extrabold text-center bg-gradient-to-tr from-green-400 to-blue-600 text-transparent bg-clip-text">
-            Academic Qualifications
-          </h1>
-          <Card />
-          <Footer />
-        </div>
+        <Card />
+        <Footer />
       </Fade>
     </div>
   );

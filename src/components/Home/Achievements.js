@@ -10,9 +10,9 @@ import { Fade } from "react-awesome-reveal";
 
 const Achievements = () => {
   return (
-    <div className="bg-black px-8 md:px-28 py-5">
+    <div className=" px-8 md:px-28 py-8">
       <Fade duration={3000}>
-        <h1 className="text-lg md:text-3xl lg:text-4xl py-12 font-extrabold text-center bg-gradient-to-tr from-green-400 to-blue-600 text-transparent bg-clip-text">
+        <h1 className="text-lg md:text-3xl lg:text-4xl py-12 font-medium text-center bg-blue-600 text-transparent bg-clip-text">
           Accomplishments of Note
         </h1>
         <Swiper
@@ -30,11 +30,11 @@ const Achievements = () => {
               spaceBetween: 0,
             },
             640: {
-              slidesPerView: 2,
-              spaceBetween: 20,
+              slidesPerView: 1,
+              spaceBetween: 40,
             },
             768: {
-              slidesPerView: 2,
+              slidesPerView: 1,
               spaceBetween: 40,
             },
             1024: {

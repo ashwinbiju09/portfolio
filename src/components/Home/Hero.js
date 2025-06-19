@@ -1,39 +1,92 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import Social from "../Home/Social";
 import { Fade } from "react-awesome-reveal";
+import { motion, AnimatePresence } from "framer-motion";
+import Scramble from "./Scramble";
+
+const greetings = ["Hello", "Bonjour", "Hola", "Hallo", "Ciao"];
+
+const skills = [
+  "Expert at carving designs into pixel-perfect, responsive web and mobile interfaces delivering seamless user experiences.",
+  "Proficient in implementing backend systems, designing scalable APIs, and managing databases for secure, efficient data flow.",
+  "Driven by a passion for AI, exploring and experimenting with cutting-edge technologies to develop innovative solutions.",
+];
 
 const Hero = () => {
+  const [index, setIndex] = useState(0);
+  const [visible, setVisible] = useState(true);
+
+  useEffect(() => {
+    const showTime = 2000;
+    const transitionTime = 1500;
+
+    const timer = setTimeout(() => {
+      setVisible(false);
+      setTimeout(() => {
+        setIndex((prev) => (prev + 1) % greetings.length);
+        setVisible(true);
+      }, transitionTime);
+    }, showTime);
+
+    return () => clearTimeout(timer);
+  }, [index, visible]);
+
   return (
-    <div className="bg-black">
+    <div className="pt-12 px-6 lg:px-24 text-white w-full">
       <Fade duration={3000}>
-        <div className="flex flex-col md:flex-row items-center justify-center md:justify-between h-96 px-16 pt-36 lg:pt-32 text-white">
-          <div className="w-full md:w-1/2 h-full flex flex-col items-center md:items-start justify-center md:p-8 text-center md:text-left">
-            <h1 className="text-2xl md:text-4xl lg:text-7xl font-bold mb-4">
-              Hello&#128075;
-            </h1>
-            <h2 className="text-xl md:text-3xl font-bold mb-4 lg:text-4xl">
-              I'm{" "}
-              <span className="bg-gradient-to-tr from-green-400 to-blue-600 text-transparent bg-clip-text">
-                Ashwin Biju
-              </span>
+        <div className="flex flex-col-reverse lg:flex-row items-center justify-center w-full gap-12 text-center lg:text-left">
+          {/* Left Content */}
+          <div className="w-full lg:w-2/3 flex flex-col items-center lg:items-start space-y-6">
+            <AnimatePresence mode="wait">
+              {visible && (
+                <motion.h1
+                  key={index}
+                  initial={{ opacity: 0, y: 20 }}
+                  animate={{ opacity: 1, y: 0 }}
+                  exit={{ opacity: 0, y: -20 }}
+                  transition={{ duration: 1.5 }}
+                  className="text-3xl md:text-5xl font-bold"
+                >
+                  {greetings[index]} 👋
+                </motion.h1>
+              )}
+            </AnimatePresence>
+
+            <h2 className="text-2xl md:text-4xl font-semibold">
+              <Scramble text="I'm Ashwin!" className="inline-block" />
             </h2>
-            <p className="text-base text-justify tracking-wider mb-6 lg:text-xl">
-              I'm full stack developer proficient in{" "}
-              <span className="text-amber-300">JavaScript</span> and{" "}
-              <span className="text-blue-400">Python</span> frameworks.
-              Currently, I'm delving into the exciting world of AI & ML, always
-              eager to learn and innovate. Beyond coding, I find joy in
-              traveling &#127757; and immersing myself in music &#127911;.
-            </p>
+
+            <div className="hidden md:flex text-lg md:text-2xl font-medium tracking-wide flex-wrap justify-center lg:justify-start items-center gap-x-2">
+              <Scramble text="Software Developer" className="text-blue-500" />
+              <span className="text-blue-500">•</span>
+              <Scramble text="Web Developer" className="text-blue-500" />
+              <span className="text-blue-500">•</span>
+              <Scramble text="AI Enthusiast" className="text-blue-500" />
+            </div>
+
+            <ul className="mt-4 space-y-3 text-base md:text-lg list-disc list-inside text-gray-300 text-justify md:px-6 lg:px-0">
+              {skills.map((skill, idx) => (
+                <li key={idx}>{skill}</li>
+              ))}
+            </ul>
+
             <Social />
           </div>
-          <div className="w-full md:w-1/2 h-full flex items-center justify-center md:justify-end lg:pr-12 mt-8 md:mt-0 z-0">
-            <img
-              src="assets/images/Hero.jpeg"
-              alt="HeroImage"
-              className="hidden md:block bounce w-max border-bg-black rounded-full"
-              style={{ height: "500px" }}
-            />
+
+          {/* Right Image */}
+          <div className="w-full lg:w-1/3 flex justify-center">
+            <motion.div
+              whileHover={{ scale: 1.05 }}
+              className="shadow-xl w-60 h-60 lg:w-96 lg:h-full"
+            >
+              <img
+                src="/assets/hero.jpg"
+                alt="Ashwin"
+                width={320}
+                height={320}
+                className="object-cover w-full h-full rounded-xl"
+              />
+            </motion.div>
           </div>
         </div>
       </Fade>

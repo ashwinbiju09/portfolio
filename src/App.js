@@ -15,12 +15,15 @@ function App() {
   }, []);
 
   return (
-    <div style={{ fontFamily: "Poppins, sans-serif" }}>
+    <div
+      className="bg-gradient-to-r from-black via-slate-900 to-black"
+      style={{ fontFamily: "Poppins, sans-serif" }}
+    >
       {isLoading ? (
         <Loader />
       ) : (
         <>
-          <ParticlesComponent />
+          {/* <ParticlesComponent /> */}
           <BrowserRouter>
             <Routes>
               <Route path="/*" element={<BaseRoute />} />

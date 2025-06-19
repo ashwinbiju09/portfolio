@@ -10,38 +10,3 @@ body {
   scroll-behavior: smooth;
 }
 
-
-/* Scroll bar Customization*/
-
-::-webkit-scrollbar {
-    width: 6px;
-  }
-  
-  /* Track */
-  ::-webkit-scrollbar-track {
-    background: #000; 
-  }
-   
-  /* Handle */
-  ::-webkit-scrollbar-thumb {
-    background : linear-gradient(to right, #67b26f, #4ca2cd);
-    border-radius: 5px;
-  }
-
-/* Hero image animation */
-
-@keyframes bounce {
-  0%, 20%, 50%, 80%, 100% {
-    transform: translateY(0);
-  }
-  40% {
-    transform: translateY(-30px);
-  }
-  60% {
-    transform: translateY(-15px);
-  }
-}
-
-.bounce {
-  animation: bounce 6s infinite;
-}

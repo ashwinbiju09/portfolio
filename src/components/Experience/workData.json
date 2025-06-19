@@ -1,30 +1,38 @@
 {
-    "data": [
-      {
-        "date": "January 2022 - May 2024",
-        "title": "React.js Developer",
-        "company": "Third Storage",
-        "location": "Remote",
-        "content": [
-          "Optimised component life cycle practices using advanced ReactJS and NextJS, enhancing performance and resource management in web and desktop application development.",
-    "Reduced unnecessary re-renders by 25% and refined data flow consistency through Redux implementation.",
-    "Improved development efficiency by 30% and ensured a consistent, customisable design system by leveraging Tailwind CSS for reusable components.",
-    "Developed a React SDK for streamlined application integration, boosting functionalities and contributing to robust software ecosystems.",
-    "Acquired expertise in Web3 and Blockchain architecture, demonstrating a deep understanding of underlying mechanics for seamless application development."
-        ],
-        "image": "assets/images/thirdstorage.png"
-      },
-      {
-        "date": "February 2021 - January 2022",
-        "title": "Web Developer",
-        "company": "Freelancing",
-        "location": "Remote",
-        "content": [
-          "Designed and developed a hackathon portal for MOE’s Innovation Cell using Django, MySQL, and Bootstrap, facilitating secure idea evaluation and submissions from over 160,000 students.",
-          "Built and presented 'Khel Hindustan,' a web platform for the Ministry of Youth Affairs and Sports, leveraging Flask (Python), SQLite, and JavaScript to automate application submission, real-time tracking, and NLP-based screening, reducing manual processes by 40%.",
-          "Developed a unified verification system using Python and OpenCV, incorporating facial recognition and fingerprint extraction with the SIFT algorithm, improving accuracy and efficiency in citizen data access."
-        ],
-        "image": "assets/images/freelancing.jpg"
-      }
-    ]
-  }
+  "data": [
+    {
+      "date": "Feb 2023 - May 2024",
+      "title": "Software Developer",
+      "company": "Third Storage",
+      "location": "Bengaluru, Karnataka, India · Remote",
+      "content": [
+        "Collaborated with the team to develop and maintain the Company website and Third Storage Localhost, an open-source, self-hostable storage and backend-as-a-service platform.",
+        "Built and optimized core client-side functionality using React.js & Next.js, applying advanced component lifecycle practices to reduce load times by 30%.",
+        "Integrated Redux for state management, reducing unnecessary re-renders by 25% and enhancing data flow consistency.",
+        "Applied TypeScript to enhance code quality and maintainability across the project, lowering runtime errors and improving developer collaboration."
+      ]
+    },
+        {
+      "date": "Feb 2023 - May 2024",
+      "title": "Software Developer Intern",
+      "company": "Third Storage",
+      "location": "Bengaluru, Karnataka, India · Remote",
+      "content": [
+        "Designed and built 20+ reusable UI components using Tailwind CSS, improving design consistency and accelerating front-end development.",
+        "Wrote unit and integration tests with Jest, increasing test coverage by 40% and reducing production regression bugs by 20%.",
+        "Acquired hands-on experience with Web3 and blockchain architecture, applying distributed computing principles in real-world implementations."
+      ]
+    },
+    {
+      "date": "Nov 2021 - Dec 2021",
+      "title": "Web Development Intern",
+      "company": "MoE's Innovation Cell",
+      "location": "Delhi, India · Remote",
+      "content": [
+        "Contributed to the development of the Smart India Hackathon 2022 platform, enabling secure idea submissions and evaluations for over 160,000+ students, significantly enhancing national-scale participation.",
+        "Developed a responsive, cross-device UI using JavaScript and Bootstrap, improving accessibility and reducing user drop-off by an estimated 25% during peak registration periods.",
+        "Implemented backend logic with Django and MySQL, including role-based authentication that streamlined access control for thousands of admin, evaluator, and participant accounts."
+      ]
+    }
+  ]
+}
