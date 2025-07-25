@@ -12,7 +12,7 @@ const Achievements = () => {
   return (
     <div className=" px-8 md:px-28 py-8">
       <Fade duration={3000}>
-        <h1 className="text-lg md:text-3xl lg:text-4xl py-12 font-medium text-center bg-blue-600 text-transparent bg-clip-text">
+        <h1 className="text-lg md:text-3xl lg:text-4xl py-12 font-medium text-center bg-purple-700 text-transparent bg-clip-text">
           Accomplishments of Note
         </h1>
         <Swiper

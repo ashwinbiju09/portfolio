@@ -14,7 +14,7 @@ const ProjectCard = ({ project }) => {
           {project.icons.map((icon, idx) => (
             <span
               key={idx}
-              className="bg-gray-800 text-blue-500 text-xs font-semibold px-2 py-1 rounded-md"
+              className="bg-gray-800 text-purple-700 text-xs font-semibold px-2 py-1 rounded-md"
             >
               {icon}
             </span>

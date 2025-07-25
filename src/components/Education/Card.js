@@ -13,7 +13,7 @@ const EducationCard = ({ item }) => {
             </h3>
           </div>
           <div className="flex flex-col items-end mt-4 md:mt-0 py-2">
-            <span className="text-blue-600 bg-gray-800 px-2 py-1 rounded-md text-sm font-medium">
+            <span className="text-purple-700 bg-gray-800 px-2 py-1 rounded-md text-sm font-medium">
               {item.year}
             </span>
             <span className="text-sm text-gray-400 mt-2">{item.location}</span>
@@ -24,7 +24,7 @@ const EducationCard = ({ item }) => {
           {item.content.map((point, idx) => (
             <li key={idx} className="relative pl-6">
               <span
-                className="absolute left-0 top-1.5 w-2 h-2 rounded-full bg-blue-600/70"
+                className="absolute left-0 top-1.5 w-2 h-2 rounded-full bg-purple-600/70"
                 aria-hidden="true"
               />
               {point}
@@ -38,7 +38,7 @@ const EducationCard = ({ item }) => {
               href={item.link}
               target="_blank"
               rel="noreferrer"
-              className="text-blue-600 hover:text-blue-400 font-medium"
+              className="text-purple-700 hover:text-purple-500 font-medium"
             >
               Visit Website
             </a>
@@ -53,7 +53,7 @@ const Card = () => {
   return (
     <div className="flex flex-col items-center justify-center py-8">
       <div className="px-4 md:px-12 w-full max-w-7xl mx-auto">
-        <h1 className="text-xl md:text-3xl lg:text-4xl pb-8 font-medium text-left bg-blue-600 text-transparent bg-clip-text">
+        <h1 className="text-xl md:text-3xl lg:text-4xl pb-8 font-medium text-left bg-purple-700 text-transparent bg-clip-text">
           Academic Qualifications
         </h1>
 

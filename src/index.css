@@ -10,3 +10,21 @@ body {
   scroll-behavior: smooth;
 }
 
+/* Hide all Unicorn Studio elements */
+a[href*="unicorn.studio"],
+a[href*="unicorn.studio"] *,
+a[href*="unicorn.studio"]::before,
+a[href*="unicorn.studio"]::after,
+img[src*="unicorn.studio"],
+div[class*="unicorn"],
+[data-unicorn] {
+  display: none !important;
+  opacity: 0 !important;
+  visibility: hidden !important;
+  pointer-events: none !important;
+  border: none !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  height: 0 !important;
+  min-height: 0 !important;
+}

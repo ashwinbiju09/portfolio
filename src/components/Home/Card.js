@@ -24,7 +24,7 @@ const Card = ({ item }) => {
             target="_blank"
             rel="noreferrer"
             href={item.certificate}
-            className="inline-block text-blue-600 hover:underline"
+            className="inline-block text-purple-800 hover:underline"
           >
             View Certificate
           </a>
