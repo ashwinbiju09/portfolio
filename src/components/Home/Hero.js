@@ -57,11 +57,11 @@ const Hero = () => {
             </h2>
 
             <div className="hidden md:flex text-lg md:text-2xl font-medium tracking-wide flex-wrap justify-center lg:justify-start items-center gap-x-2">
-              <Scramble text="Software Developer" className="text-purple-800" />
-              <span className="text-purple-800">•</span>
-              <Scramble text="Web Developer" className="text-purple-800" />
-              <span className="text-purple-800">•</span>
-              <Scramble text="AI Enthusiast" className="text-purple-800" />
+              <Scramble text="Software Developer" className="text-blue-800" />
+              <span className="text-blue-800">•</span>
+              <Scramble text="Web Developer" className="text-blue-800" />
+              <span className="text-blue-800">•</span>
+              <Scramble text="AI Enthusiast" className="text-blue-800" />
             </div>
 
             <ul className="mt-4 space-y-3 text-base md:text-lg list-disc list-inside text-gray-300 text-justify md:px-6 lg:px-0">

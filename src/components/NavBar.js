@@ -15,7 +15,7 @@ const NavBar = () => {
           <a
             key={name}
             href={href}
-            className="font-medium m-2 md:m-4 px-3 md:px-5 py-2 md:py-4 rounded-md transform transition duration-200 hover:scale-110 hover:text-purple-700 whitespace-nowrap"
+            className="font-medium m-2 md:m-4 px-3 md:px-5 py-2 md:py-4 rounded-md transform transition duration-200 hover:scale-110 hover:text-blue-700 whitespace-nowrap"
           >
             {name}
           </a>
