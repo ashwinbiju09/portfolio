@@ -33,7 +33,7 @@ const EducationCard = ({ item }) => {
         </ul>
 
         {item.link && (
-          <div className="flex justify-end">
+          <div className="flex justify-end pt-2">
             <a
               href={item.link}
               target="_blank"

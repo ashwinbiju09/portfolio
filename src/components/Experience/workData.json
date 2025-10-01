@@ -6,8 +6,8 @@
       "company": "Third Storage",
       "location": "Bengaluru, Karnataka, India · Remote",
       "content": [
-        "Collaborated with the team to develop and maintain the Company website and Third Storage Localhost, an open-source, self-hostable storage and backend-as-a-service platform.",
-        "Built and optimized core client-side functionality using React.js & Next.js, applying advanced component lifecycle practices to reduce load times by 30%.",
+        "Developed and maintained Third Storage Localhost, an open-source backend-as-a-service (BaaS) platform, optimizing core client-side functionality with React.js & Next.js to reduce load times by 30%.",
+        "Integrated third-party authentication and external APIs into web applications, reducing manual data handling by 30% and improving developer efficiency.",
         "Integrated Redux for state management, reducing unnecessary re-renders by 25% and enhancing data flow consistency.",
         "Applied TypeScript to enhance code quality and maintainability across the project, lowering runtime errors and improving developer collaboration."
       ]

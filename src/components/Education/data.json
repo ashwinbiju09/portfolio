@@ -10,7 +10,7 @@
       "content": [
         "Currently enrolled in advanced studies focusing on Machine Learning and Adaptive Intelligence, Text Processing, and Natural Language Processing.",
         "Refactored a legacy codebase as part of a Software Re-engineering module, reducing code complexity, enhancing performance, and increasing unit test coverage to improve system reliability and maintainability.",
-        "Actively working towards achieving a 2:1 grade while engaging in industry-driven projects and academic research."
+        "Built AudioEmailr, a voice-driven email client with teammates from diverse backgrounds, integrating Gmail, Zoho, and Outlook APIs and using Google Speech-to-Text and MongoDB to enable hands-free email management."
       ]
     },
     {
@@ -21,9 +21,10 @@
       "degree": "B.E. Computer Science and Engineering",
       "link": "https://skcet.ac.in/",
       "content": [
-        "First Class with Distinction.",
-        "Completed a comprehensive curriculum of nearly 54 modules, focusing on foundational areas such as Data Structures & Algorithms, Operating Systems, Database Management Systems (DBMS), and Computer Architecture.",
-        "Participated and won numerous prizes in various national and international hackathons."
+        "Graduated First Class with Distinction",
+        "Participated and won numerous prizes in various national and international hackathons.",
+        "Completed a comprehensive curriculum of nearly 54 modules, focusing on foundational areas such as Data Structures, Operating Systems,  DBMS, etc."
+        
       ]
     }
   ]

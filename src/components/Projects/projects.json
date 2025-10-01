@@ -2,45 +2,84 @@
   "data": [
     {
       "title": "Digital Fingerprint Extraction",
-      "content": "Captures fingerprint images via mobile cameras and uses the SIFT algorithm to match them with existing databases for accurate identification.",
+      "content": [
+        "Implemented a mobile fingerprint recognition system using OpenCV and SIFT for accurate identity verification.",
+        "Developed a FLANN-based feature matching pipeline that enabled real-time database comparisons.",
+        "Delivered a Flask-based web interface for seamless user access, improving authentication speed and reliability."
+      ],
       "category": "hackathon",
       "icons": ["Python", "OpenCV", "Flask"]
     },
     {
       "title": "Infrastructure Approval System",
-      "content": "Automates the Khelo India infrastructure approval process with a transparent portal for real-time tracking and project validation.",
+      "content": [
+        "Automated Khelo India infrastructure approvals with a Flask-powered workflow platform.",
+        "Built REST APIs and real-time dashboards, increasing transparency and reducing manual tracking errors.",
+        "Implemented role-based authentication and SQLite storage, streamlining project validation for officials."
+      ],
       "category": "hackathon",
       "icons": ["Python", "Flask", "JavaScript", "SQLite"]
     },
     {
       "title": "Voyager",
-      "content": "A travel chatbot that helps users with bookings, food recommendations, and emergency support using smart filters and quick responses.",
+      "content": [
+        "Developed a context-aware travel chatbot integrating booking, restaurant, and emergency services.",
+        "Applied NLP intent classification and smart filters for accurate, real-time recommendations.",
+        "Optimized asynchronous backend in Flask, reducing response latency and improving user engagement."
+      ],
       "category": "hackathon",
       "icons": ["Python", "Flask"]
     },
     {
       "title": "Democratic Desk",
-      "content": "Centralized platform for voter engagement with access to polling info, postal voting, slot booking, and demos for first-time voters.",
+      "content": [
+        "Built a full-stack MERN platform for voter engagement, slot booking, and polling information.",
+        "Implemented JWT authentication and MongoDB storage, ensuring secure, persistent user data.",
+        "Enabled location-based services and demos for first-time voters, increasing civic participation awareness."
+      ],
       "category": "hackathon",
       "icons": ["ReactJS", "ExpressJS", "NodeJS", "MongoDB"]
     },
     {
       "title": "Ecoledger",
-      "content": "A blockchain-based platform for tracking carbon emissions and promoting active participation in sustainability efforts.",
+      "content": [
+        "Created a decentralized carbon tracking dApp using Solidity smart contracts.",
+        "Integrated NextJS frontend with MongoDB backend for off-chain data and Web3.js wallet interactions.",
+        "Promoted transparent carbon credit trading, encouraging active sustainability participation."
+      ],
       "category": "hackathon",
-      "icons": ["NextJS", "MongoDB","Solidity"]
+      "icons": ["NextJS", "MongoDB", "Solidity"]
     },
     {
       "title": "Xplore",
-      "content": "Adventure app offering personalized experiences and real-time suggestions for outdoor enthusiasts.",
+      "content": [
+        "Developed a personalized adventure planner using Flask and collaborative filtering algorithms.",
+        "Processed location and weather data to provide context-aware real-time activity suggestions.",
+        "Delivered a JavaScript frontend with dynamic recommendations, enhancing user experience for outdoor enthusiasts."
+      ],
       "category": "hackathon",
       "icons": ["Flask", "Python", "SQLite", "JavaScript"]
     },
     {
       "title": "Audio Emailr",
-      "content": "Voice-enabled email client that reads messages aloud and supports commands for Gmail, Zoho Mail and Outlook. Built for hands-free access and accessibility.",
+      "content": [
+        "Built a voice-driven email client integrating Gmail, Zoho, and Outlook APIs.",
+        "Enabled hands-free email management using Google Speech-to-Text and Text-to-Speech APIs.",
+        "Stored user preferences and command history in MongoDB, improving accessibility and usability."
+      ],
       "category": "academic",
       "icons": ["React", "Flask", "Python", "MongoDB", "Google API"]
-    }
+    },
+    {
+  "title": "Study Buddy – Alexa Skill",
+  "content": [
+    "Developed a Python-based Alexa skill to upload and query study notes from PDFs via voice commands.",
+    "Built a RAG pipeline using Sentence Transformers and ChromaDB, with metadata stored in DynamoDB.",
+    "Designed a fully serverless backend using AWS Lambda, S3 (pre-signed URLs), SES, and CloudWatch."
+  ],
+  "category": "academic",
+  "icons": ["Python", "AWS Lambda", "S3", "DynamoDB", "SES", "ChromaDB", "Sentence Transformers"]
+}
+
   ]
 }

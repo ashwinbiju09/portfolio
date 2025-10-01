@@ -9,7 +9,7 @@ const greetings = ["Hello", "Bonjour", "Hola", "Hallo", "Ciao"];
 const skills = [
   "Expert at carving designs into pixel-perfect, responsive web and mobile interfaces delivering seamless user experiences.",
   "Proficient in implementing backend systems, designing scalable APIs, and managing databases for secure, efficient data flow.",
-  "Driven by a passion for AI, exploring and experimenting with cutting-edge technologies to develop innovative solutions.",
+  "Expanding into AI development, driven by a passion for exploring cutting-edge technologies and leveraging machine learning to build innovative, intelligent solutions.",
 ];
 
 const Hero = () => {
