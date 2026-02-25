@@ -1,9 +1,7 @@
 /* src/index.css or src/styles/globals.css */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
 
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
 
 body {
   @apply font-sans; /* Apply the 'sans' font family which includes Poppins */

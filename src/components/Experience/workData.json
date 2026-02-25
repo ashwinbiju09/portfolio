@@ -1,26 +1,37 @@
 {
   "data": [
     {
+      "date": "Nov 2024 - Present",
+      "title": "Associate Software Developer",
+      "company": "AR Experts Ltd",
+      "location": "Manchester, United Kingdom · Remote",
+      "content": [
+        "Contributed to 2 GDPR-compliant cross-platform mobile applications serving 500+ daily active users, built across the full stack from database design to deployment.",
+        "Led a state management migration that eliminated redundant API calls and reduced duplicated state across 10+ screens, improving performance and long-term maintainability.",
+        "Delivered 10+ production-ready features end-to-end, including REST API design, database schemas, and technical documentation used by the wider development team.",
+        "Implemented security-critical features including data encryption, single-device login, mandatory password resets, and location-based controls to meet regulatory compliance requirements."
+      ]
+    },
+    {
       "date": "Jun 2023 - May 2024",
       "title": "Junior Software Developer",
       "company": "Third Storage",
-      "location": "Bengaluru, Karnataka, India · Remote",
+      "location": "Bengaluru, India · Remote",
       "content": [
-        "Developed and maintained Third Storage Localhost, an open-source backend-as-a-service (BaaS) platform, optimizing core client-side functionality with React.js & Next.js to reduce load times by 30%.",
-        "Integrated third-party authentication and external APIs into web applications, reducing manual data handling by 30% and improving developer efficiency.",
-        "Integrated Redux for state management, reducing unnecessary re-renders by 25% and enhancing data flow consistency.",
-        "Applied TypeScript to enhance code quality and maintainability across the project, lowering runtime errors and improving developer collaboration."
+        "Developed and maintained the company website and Third Storage Localhost, an open-source self-hostable backend-as-a-service platform used by developers worldwide.",
+        "Optimised core client-side functionality using advanced component lifecycle practices, reducing load times by 30%.",
+        "Integrated Redux for state management, cutting unnecessary re-renders by 25% and improving data flow consistency across the application.",
+        "Adopted TypeScript across the codebase to improve code quality, reduce runtime errors, and streamline collaboration within the team."
       ]
     },
-        {
+    {
       "date": "Feb 2023 - May 2023",
       "title": "Software Developer Intern",
       "company": "Third Storage",
-      "location": "Bengaluru, Karnataka, India · Remote",
+      "location": "Bengaluru, India · Remote",
       "content": [
-        "Designed and built 20+ reusable UI components using Tailwind CSS, improving design consistency and accelerating front-end development.",
-        "Wrote unit and integration tests with Jest, increasing test coverage by 40% and reducing production regression bugs by 20%.",
-        "Acquired hands-on experience with Web3 and blockchain architecture, applying distributed computing principles in real-world implementations."
+        "Designed and built 20+ reusable UI components, improving design consistency and significantly accelerating front-end development velocity.",
+        "Wrote unit and integration tests that increased test coverage by 40% and reduced production regression bugs by 20%."
       ]
     },
     {
@@ -29,9 +40,9 @@
       "company": "MoE's Innovation Cell",
       "location": "Delhi, India · Remote",
       "content": [
-        "Contributed to the development of the Smart India Hackathon 2022 platform, enabling secure idea submissions and evaluations for over 160,000+ students, significantly enhancing national-scale participation.",
-        "Developed a responsive, cross-device UI using JavaScript and Bootstrap, improving accessibility and reducing user drop-off by an estimated 25% during peak registration periods.",
-        "Implemented backend logic with Django and MySQL, including role-based authentication that streamlined access control for thousands of admin, evaluator, and participant accounts."
+        "Contributed to the Smart India Hackathon 2022 platform, supporting secure idea submissions and evaluations for over 160,000 students at a national scale.",
+        "Built a responsive, cross-device UI that improved accessibility and reduced user drop-off by an estimated 25% during peak registration periods.",
+        "Implemented backend logic including role-based authentication to manage access for thousands of admin, evaluator, and participant accounts."
       ]
     }
   ]

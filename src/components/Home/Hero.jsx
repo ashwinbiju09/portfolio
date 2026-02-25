@@ -7,11 +7,10 @@ import Scramble from "./Scramble";
 const greetings = ["Hello", "Bonjour", "Hola", "Hallo", "Ciao"];
 
 const skills = [
-  "Expert at carving designs into pixel-perfect, responsive web and mobile interfaces delivering seamless user experiences.",
-  "Proficient in implementing backend systems, designing scalable APIs, and managing databases for secure, efficient data flow.",
-  "Expanding into AI development, driven by a passion for exploring cutting-edge technologies and leveraging machine learning to build innovative, intelligent solutions.",
+  "Designing and building intuitive, responsive interfaces that look great and feel effortless to use across any device.",
+  "Developing the logic behind the scenes — from APIs to databases — ensuring applications are fast, secure, and built to scale.",
+  "Exploring the world of AI, with a growing interest in building smarter, more adaptive digital experiences.",
 ];
-
 const Hero = () => {
   const [index, setIndex] = useState(0);
   const [visible, setVisible] = useState(true);
@@ -57,11 +56,10 @@ const Hero = () => {
             </h2>
 
             <div className="hidden md:flex text-lg md:text-2xl font-medium tracking-wide flex-wrap justify-center lg:justify-start items-center gap-x-2">
-              <Scramble text="Software Developer" className="text-blue-800" />
-              <span className="text-blue-800">•</span>
-              <Scramble text="Web Developer" className="text-blue-800" />
-              <span className="text-blue-800">•</span>
-              <Scramble text="AI Enthusiast" className="text-blue-800" />
+              <Scramble
+                text="Full Stack Software Developer"
+                className="text-blue-800"
+              />
             </div>
 
             <ul className="mt-4 space-y-3 text-base md:text-lg list-disc list-inside text-gray-300 text-justify md:px-6 lg:px-0">
